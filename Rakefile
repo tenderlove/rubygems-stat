@@ -27,3 +27,10 @@ task :nokogiri do
     sh "dtruss ruby #{tf.path} 2> nokogiri-#{RUBY_VERSION}-RG-#{Gem::VERSION}.log"
   end
 end
+
+desc 'generate stats'
+task :stats do
+  Dir['*.log'].each do |file|
+    p file => File.readlines(file).grep(/^[l]?stat64/).length
+  end
+end
