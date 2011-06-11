@@ -1,0 +1,28 @@
+[aaron@higgins rubygems-stat (master)]$ gem -v
+1.8.5
+[aaron@higgins rubygems-stat (master)]$ ruby -v
+ruby 1.9.2p136 (2010-12-25 revision 30365) [x86_64-darwin10.7.0]
+[aaron@higgins rubygems-stat (master)]$ which ruby
+/Users/aaron/.ruby19/bin/ruby
+[aaron@higgins rubygems-stat (master)]$ gem env
+RubyGems Environment:
+  - RUBYGEMS VERSION: 1.8.5
+  - RUBY VERSION: 1.9.2 (2010-12-25 patchlevel 136) [x86_64-darwin10.7.0]
+  - INSTALLATION DIRECTORY: /Users/aaron/.ruby19/lib/ruby/gems/1.9.1
+  - RUBY EXECUTABLE: /Users/aaron/.ruby19/bin/ruby
+  - EXECUTABLE DIRECTORY: /Users/aaron/.ruby19/bin
+  - RUBYGEMS PLATFORMS:
+    - ruby
+    - x86_64-darwin-10
+  - GEM PATHS:
+     - /Users/aaron/.ruby19/lib/ruby/gems/1.9.1
+     - /Users/aaron/.gem/ruby/1.9.1
+  - GEM CONFIGURATION:
+     - :update_sources => true
+     - :verbose => true
+     - :benchmark => false
+     - :backtrace => false
+     - :bulk_threshold => 1000
+  - REMOTE SOURCES:
+     - http://rubygems.org/
+[aaron@higgins rubygems-stat (master)]$ 
